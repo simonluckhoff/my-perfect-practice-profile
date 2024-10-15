@@ -1,0 +1,93 @@
+body{
+  background-color: #D3E1E2;
+}
+
+h1, h4, p, a{
+  font-family: monospace;
+  color: #407C87;
+  text-align: center;
+}
+
+h1{
+  margin: 5px 0px 0px 0px;
+}
+
+h4{
+  margin: 9px 0px 13px 0px;
+  margin: 0;
+  padding: 5px 0px;
+  font-style: italic;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.03);
+  transition: ease-out .2s;
+  color: black;
+}
+
+.card-1{
+  background-color: rgba(186, 184, 174, 0.65);
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 5px;
+  margin: 25px auto;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+.card-2{
+  background-color: rgba(186, 184, 174, 0.65);
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 5px;
+  margin: 25px auto;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  background-color: #A4DBDD;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 4px;
+}
+
+ul{
+  padding: 0;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: ease-out .3s;
+  background-color: #407C87;
+}
+
+img{
+  margin-top: 9px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.email-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+@media (max-width: 390px) {
+  .card-1{
+    margin: 25px auto;
+    width: 82%;
+  }
+  .card-2{
+    margin: 25px auto;
+    width: 82%;
+  }
+}
