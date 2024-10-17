@@ -1,6 +1,14 @@
 body{
-  background-color: #D3E1E2;
-}
+  background-image: url(/profile/images/m4.jpg);
+  /* filter: blur(10px); */
+  padding-top: 42px;
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 95.5vh;}
 
 h1, h4, p, a{
   font-family: monospace;
